@@ -166,11 +166,12 @@
         <section class="hero reveal">
           <div class="hero-grid">
             <div>
-              <span class="eyebrow">Paris for Two</span>
+              <span class="eyebrow">Париж для двоих</span>
               <h1>${escapeHtml(data.meta.title)}</h1>
               <p class="hero-lead">
-                ${escapeHtml(data.meta.dateRange)}. База: ${escapeHtml(data.meta.hotel)}.
-                ${escapeHtml(data.meta.intro)}
+                ${escapeHtml(data.meta.dateRange)}. База — ${escapeHtml(data.meta.hotel)}.
+                Этот гид собран так, чтобы поездка ощущалась лёгкой: с красивыми прогулками,
+                хорошим кофе, большими точками вроде Лувра и Dior и спокойным запасом воздуха между ними.
               </p>
             </div>
             <aside class="hero-sidebar">
@@ -208,7 +209,7 @@
           <div class="panel-header">
             <div>
               <h2>Ритм поездки</h2>
-              <p>Коротко: на чём держится маршрут и как распределены дни, чтобы поездка ощущалась спокойно и красиво.</p>
+              <p>Коротко: как устроен маршрут, чтобы дни были насыщенными, но не утомляющими.</p>
             </div>
           </div>
           <div class="edit-grid">
@@ -219,8 +220,8 @@
               </ul>
             </div>
             <div class="edit-box">
-              <h3>Формат</h3>
-              <p class="muted">Есть подробная и короткая версия маршрута, а в каждом важном слоте можно раскрыть запасные варианты мест и еды.</p>
+              <h3>Как пользоваться</h3>
+              <p class="muted">Есть подробная и короткая версия маршрута, а в каждом важном слоте можно открыть спокойные альтернативы по настроению.</p>
             </div>
           </div>
         </section>
@@ -634,7 +635,7 @@
       </section>
 
       <div class="footer-note reveal">
-        Подробная версия помогает прожить день целиком, а короткая удобна как шпаргалка на ходу.
+        Подробная версия помогает прожить день целиком, а короткая остаётся удобной шпаргалкой на ходу.
       </div>
     `;
   }
