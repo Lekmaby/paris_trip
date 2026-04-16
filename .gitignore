@@ -12,6 +12,7 @@ node_modules/
 dist/
 build/
 .cache/
+.notes/
 
 .env
 .env.*
@@ -26,3 +27,7 @@ coverage/
 .coverage
 
 Thumbs.db
+*.zip
+*.pdf
+some_guide.txt
+paris_trip_site 2/
