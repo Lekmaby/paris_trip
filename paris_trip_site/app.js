@@ -457,8 +457,8 @@
           <section class="section-card">
             <h3>Короткие ориентиры</h3>
             <ul class="clean-list">
-              <li><strong>Логистика 🚇:</strong> ${escapeHtml(day.transit)}</li>
-              <li><strong>Бронь 🎟️:</strong> ${escapeHtml(day.booking)}</li>
+              <li><strong>Логистика:</strong> ${escapeHtml(day.transit)}</li>
+              <li><strong>Бронь:</strong> ${escapeHtml(day.booking)}</li>
               ${
                 day.mustVisit && day.mustVisit.length
                   ? day.mustVisit
@@ -466,7 +466,7 @@
                       .join("")
                   : ""
               }
-              ${day.returnPlan ? `<li><strong>Возвращение 🏨:</strong> ${escapeHtml(day.returnPlan)}</li>` : ""}
+              ${day.returnPlan ? `<li><strong>Возвращение:</strong> ${escapeHtml(day.returnPlan)}</li>` : ""}
               ${day.notes.map((note) => `<li>${escapeHtml(note)}</li>`).join("")}
             </ul>
           </section>
