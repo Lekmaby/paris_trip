@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Париж 23 апреля – 1 мая 2026 — подробный маршрут</title>
+  <meta name="description" content="Подробный маршрут по Парижу на 23 апреля – 1 мая 2026: музеи, прогулки, кофе, шопинг, Версаль, день вылета и полезные ссылки.">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0f1722" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7efe7" media="(prefers-color-scheme: light)">
+  <meta property="og:title" content="Париж 23 апреля – 1 мая 2026">
+  <meta property="og:description" content="Личный гид по Парижу: маршрут для двоих, музеи, прогулки, кофе, шопинг и Версаль.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>
+    (function () {
+      try {
+        document.documentElement.dataset.theme = localStorage.getItem("paris-theme") || "dark";
+      } catch (error) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="detailed">
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">Paris</span>
+          <span class="brand-copy">
+            <strong>23 апреля – 1 мая</strong>
+            <span>маршрут для двоих</span>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="Разделы">
+          <a class="is-active" href="index.html">Подробно</a>
+          <a href="route-notes.html">Кратко</a>
+        </nav>
+        <button class="days-toggle" type="button" id="days-toggle" aria-label="Открыть меню по дням" aria-controls="days-drawer">
+          <span class="days-toggle-icon" aria-hidden="true">≡</span>
+          <span class="days-toggle-text">Дни</span>
+        </button>
+        <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Переключить тему">
+          <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+          <span class="theme-toggle-text">Светлая тема</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="app"></main>
+  </div>
+
+  <script src="trip-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
